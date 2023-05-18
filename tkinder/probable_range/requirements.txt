@@ -1,0 +1,17 @@
+csv
+csv
+matplotlib.colors
+matplotlib.pyplot.plot
+yfinance
+pandas
+pandas.tseries.offsets.BDay
+math
+google.oauth2.service_account
+googleapiclient.discovery.build
+googleapiclient.errors.HttpError
+googleapiclient.discovery.build
+google_auth_oauthlib.flow.InstalledAppFlow
+datetime.datetime
+datetime.time
+datetime.timedelta
+tradingview_ta

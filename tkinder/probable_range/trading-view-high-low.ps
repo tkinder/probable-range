@@ -1,0 +1,10 @@
+// Read the CSV file
+data = csv("C:/Python311/djia_probable_range_blogger/high_low.csv")
+
+// Extract the high and low values
+high = data.value[0]
+low = data.value[1]
+
+// Plot the high and low values as lines
+plot(high, color=color.green)
+plot(low, color=color.red)

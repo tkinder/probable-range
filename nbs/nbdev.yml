@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "tkinder/probable-range"
+  site-url: "https://tkinder.github.io/tkinder/probable-range"
+  description: "DJIA Price Data Downloader, Predictor & Blogger"
+  repo-branch: main
+  repo-url: "https://github.com/tkinder/tkinder/probable-range"

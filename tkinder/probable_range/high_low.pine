@@ -1,0 +1,4 @@
+indicator("Probable High Low", overlay=true)probable_high = 33678.81
+probable_low = 32889.21
+plot(probable_high, color=color.green, linewidth=2, title="Probable High", trackprice=true)
+plot(probable_low, color=color.red, linewidth=2, title="Probable Low", trackprice=true)
