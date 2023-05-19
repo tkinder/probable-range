@@ -10,6 +10,7 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 from datetime import datetime, timedelta
 
 # Set up the OAuth 2.0 flow object and run the authorization flow
+# Be sure to put your actual path to client_secret
 
 flow = InstalledAppFlow.from_client_secrets_file(
     '/path/to/client_secret_1234567890-abcdef123456.apps.googleusercontent.com.json',
@@ -27,6 +28,7 @@ client_secret = creds.client_secret
 refresh_token = creds.refresh_token
 
 # Use the Credentials class to create an OAuth 2.0 token that authorizes your application to access the Blogger API
+# Be sure to put your actual path to service_account_file
 
 credentials = service_account.Credentials.from_service_account_file('/path/to/service_account_credentials-abc123def456.json')
 access_token = creds.token
@@ -41,6 +43,7 @@ with open('refresh_token.txt', 'w') as f:
     f.write(creds.refresh_token)
     
 # Authenticate with the Blogger API using your Google Cloud Platform credentials
+# Be sure to put your actual path to service_account_credentials
 
 SERVICE_ACCOUNT_FILE = '/path/to/service_account_credentials-abc123def456.json'
 
