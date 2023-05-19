@@ -5,4 +5,7 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://tkinder.github.io',
                 'git_url': 'https://github.com/tkinder/tkinder/probable-range',
                 'lib_path': 'tkinder/probable_range'},
-  'syms': {'probable_range.core': {'probable_range.core.foo': ('core.html#foo', 'probable_range/core.py')}}}
+  'syms': { 'probable_range.DJIA-probable-price-post-to-blogger': {},
+            'probable_range.core': {'probable_range.core.foo': ('core.html#foo', 'probable_range/core.py')},
+            'probable_range.djia-probable-price-pine-chart': {},
+            'probable_range.generate_requirements': {}}}
