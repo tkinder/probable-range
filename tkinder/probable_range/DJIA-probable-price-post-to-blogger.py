@@ -2019,7 +2019,7 @@ body = tweet_template.format(yesterday_str, previous_open, previous_high, previo
 
 # Define the blog ID
 
-blog_id = '4845598872127481481'
+blog_id = '1234567890987654321'
 post_content = body
 
 # Create a new Blogger blog post with the specified content and print error message if blog fails to post or URL of blog if post is successful
