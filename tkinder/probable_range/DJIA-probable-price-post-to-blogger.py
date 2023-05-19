@@ -12,7 +12,7 @@ from datetime import datetime, timedelta
 # Set up the OAuth 2.0 flow object and run the authorization flow
 
 flow = InstalledAppFlow.from_client_secrets_file(
-    '/home/tkinder/anaconda3/probable-range/tkinder/probable_range/client_secret_36700183469-algn87srtkhcbssuubj821r5aurbdfh5.apps.googleusercontent.com.json',
+    '/path/to/client_secret_1234567890-abcdef123456.apps.googleusercontent.com.json',
     scopes=['https://www.googleapis.com/auth/blogger']
 )
 creds = flow.run_local_server(port=0)
@@ -28,7 +28,7 @@ refresh_token = creds.refresh_token
 
 # Use the Credentials class to create an OAuth 2.0 token that authorizes your application to access the Blogger API
 
-credentials = service_account.Credentials.from_service_account_file('/home/tkinder/anaconda3/probable-range/tkinder/probable_range/stonksmaster-bf749211c14b.json')
+credentials = service_account.Credentials.from_service_account_file('/path/to/service_account_credentials-abc123def456.json')
 access_token = creds.token
 
 # Build the service object
@@ -42,7 +42,7 @@ with open('refresh_token.txt', 'w') as f:
     
 # Authenticate with the Blogger API using your Google Cloud Platform credentials
 
-SERVICE_ACCOUNT_FILE = '/home/tkinder/anaconda3/probable-range/tkinder/probable_range/stonksmaster-bf749211c14b.json'
+SERVICE_ACCOUNT_FILE = '/path/to/service_account_credentials-abc123def456.json'
 
 # Define the ticker symbol
 
