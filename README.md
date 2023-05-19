@@ -5,8 +5,11 @@
 This file will become your README and also the index of your
 documentation. Word to your mother!
 
-## Install
+## Table of Contents
+1. [Install](#How-to-install)
 
+
+## How to install
 ``` sh
 pip install tkinder/probable_range
 ```
